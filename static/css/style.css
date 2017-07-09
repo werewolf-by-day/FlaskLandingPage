@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#wrapper {
+  background: linear-gradient(white, grey, black);
+  color: white;
+}
+
+h1 {
+  color: #30a7bf;
+  display: inline-block;
+}
+
+.ninja {
+  display:block;
+  vertical-align: bottom; right:
+}
+
+#header {
+  background: linear-gradient(white, grey, black);
+}
+
+#container {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.text {
+  width: 300px;
+  padding:10px;
+  display: inline-block;
+}
+
+img {
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+form {
+  padding: 10px;
+  margin: 5px;
+  display: block;
+}

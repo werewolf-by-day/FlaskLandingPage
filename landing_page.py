@@ -7,10 +7,15 @@ def index():
 
 @app.route('/ninjas')
 def ninjas():
-    return render_template('/ninja.html')
+    return render_template('/ninjas.html')
 
 @app.route('/dojos')
 def dojos():
     return render_template('dojos.html')
+def create_user():
+   print "Welcome to the Dojo, NINJA!"
+   name = request.form['name']
+   email = request.form['email']
+   return redirect('/')
 
 app.run(debug=True)
